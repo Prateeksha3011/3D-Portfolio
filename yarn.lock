@@ -446,9 +446,9 @@
     utility-types "^3.10.0"
     zustand "^3.5.13"
 
-"@react-three/fiber@^8.13.4":
-  version "8.13.4"
-  resolved "https://registry.npmjs.org/@react-three/fiber/-/fiber-8.13.4.tgz"
+"@react-three/fiber@^8.13.7":
+  version "8.13.7"
+  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.13.7.tgz#809f63c85effc7dddd3001ee10c2256c53a82b16"
   dependencies:
     "@babel/runtime" "^7.17.8"
     "@types/react-reconciler" "^0.26.7"
