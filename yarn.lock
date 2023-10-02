@@ -446,12 +446,13 @@
     utility-types "^3.10.0"
     zustand "^3.5.13"
 
-"@react-three/fiber@^8.13.4":
-  version "8.13.4"
-  resolved "https://registry.npmjs.org/@react-three/fiber/-/fiber-8.13.4.tgz"
+"@react-three/fiber@^8.14.4":
+  version "8.14.4"
+  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.14.4.tgz#44f05d91f98fc52441874c696dd9b607a6eb7fdf"
   dependencies:
     "@babel/runtime" "^7.17.8"
     "@types/react-reconciler" "^0.26.7"
+    base64-js "^1.5.1"
     its-fine "^1.0.6"
     react-reconciler "^0.27.0"
     react-use-measure "^2.1.1"
@@ -563,6 +564,10 @@ autoprefixer@^10.4.14:
 balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
+
+base64-js@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
 
 bidi-js@^1.0.2:
   version "1.0.2"
