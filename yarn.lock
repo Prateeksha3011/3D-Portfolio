@@ -446,12 +446,15 @@
     utility-types "^3.10.0"
     zustand "^3.5.13"
 
-"@react-three/fiber@^8.13.4":
-  version "8.13.4"
-  resolved "https://registry.npmjs.org/@react-three/fiber/-/fiber-8.13.4.tgz"
+"@react-three/fiber@^8.15.11":
+  version "8.15.11"
+  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.15.11.tgz#e93bfd761a70099dcc80508d69c2540797a8f74e"
   dependencies:
     "@babel/runtime" "^7.17.8"
     "@types/react-reconciler" "^0.26.7"
+    "@types/webxr" "*"
+    base64-js "^1.5.1"
+    buffer "^6.0.3"
     its-fine "^1.0.6"
     react-reconciler "^0.27.0"
     react-use-measure "^2.1.1"
@@ -505,9 +508,9 @@
   version "0.16.2"
   resolved "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz"
 
-"@types/webxr@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.npmjs.org/@types/webxr/-/webxr-0.5.2.tgz"
+"@types/webxr@*", "@types/webxr@^0.5.2":
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/@types/webxr/-/webxr-0.5.8.tgz#904535c778318d434d9236872404fca47ce43260"
 
 "@use-gesture/core@10.2.24":
   version "10.2.24"
@@ -564,6 +567,10 @@ balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
 
+base64-js@^1.3.1, base64-js@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
+
 bidi-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/bidi-js/-/bidi-js-1.0.2.tgz"
@@ -595,6 +602,13 @@ browserslist@^4.21.5, browserslist@^4.21.9:
     electron-to-chromium "^1.4.431"
     node-releases "^2.0.12"
     update-browserslist-db "^1.0.11"
+
+buffer@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/buffer/-/buffer-6.0.3.tgz#2ace578459cc8fbe2a70aaa8f52ee63b6a74c6c6"
+  dependencies:
+    base64-js "^1.3.1"
+    ieee754 "^1.2.1"
 
 camelcase-css@^2.0.1:
   version "2.0.1"
@@ -836,6 +850,10 @@ has@^1.0.3:
   resolved "https://registry.npmjs.org/has/-/has-1.0.3.tgz"
   dependencies:
     function-bind "^1.1.1"
+
+ieee754@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
 
 inflight@^1.0.4:
   version "1.0.6"
